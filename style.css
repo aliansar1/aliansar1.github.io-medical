@@ -1,0 +1,36 @@
+:root {
+	--sky: #6bc2f1;
+}
+header {
+	min-height: 100vh;
+	background: url('img/header.jpg') center/cover no-repeat fixed;
+}
+.navbar-brand img {	margin: -.3rem 90px 0 0 }
+.my-menu { font: bold .9em "Roboto"; color: #252525 !important }
+.my-sky-bg { background: var(--sky) }
+.my-sky-text { color: var(--sky) }
+.my-nav-bg { background: rgba(255,255,255,.8) }
+#welcome, #contact, footer { padding: 120px 0; }
+#feature img { object-fit: cover; }
+.my-img { opacity: 0.5; }
+#services { padding: 120px 0; font: 1em "Roboto";}
+#services p { color: #606060; }
+.my-row { padding: 30px 0; }
+#gallery { background: #f1f1f1; padding: 45px 0; }
+.my-row-gal div { padding: 15px;}
+#testimonials { background: var(--sky); padding: 90px 0; }
+#testimonials p { padding: 40px 0; }
+#contact h2 { font: 2.5em "Roboto"; }
+#contact button { border-color: var(--sky); color: var(--sky); }
+#contact button:hover { background-color: var(--sky); color: #fff; }
+footer { background: #072135; }
+footer { font: .85em "Roboto"; line-height: 2.143; }
+.fcolor { color: #86939d; }
+.my-link { color: #86939d; }
+
+@media (max-width: 767.98px) {
+	.display-4 {
+		font-size: 2.5rem;
+		line-height: 1;
+	}
+}
